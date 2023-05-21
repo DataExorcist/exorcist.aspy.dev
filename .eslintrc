@@ -1,0 +1,33 @@
+{
+    "plugins": [
+        "solid",
+        "@typescript-eslint"
+    ],
+    "ignorePatterns": [
+        "dist",
+        "node_modules",
+        "*.ico"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:solid/typescript",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "settings": {
+        "lintAllEsApis": true
+    },
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+    }
+}
