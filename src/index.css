@@ -1,13 +1,51 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #0f0f0f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+    width: 40vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.title {
+    color: #880808;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    color: #880808;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.how {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5vh;
+    padding: 0;
+}
+
+footer {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+
+}
+
+a:visited {
+    color: #fff;
 }
